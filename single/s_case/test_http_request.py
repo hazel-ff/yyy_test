@@ -1,5 +1,5 @@
 # 时间：2022/10/15 10:22
-
+import logging
 
 from single.s_task.query import shouji_query_get, shouji_query_post
 
@@ -11,8 +11,7 @@ def test_shouji_query_get():
     }
     actual = shouji_query_get(param)
     assert actual.status_code==200
-    print('接口访问成功')
-    print(actual.json())
+    logging.info(f"接口访问成功")
 
 
 def test_shouji_query_post():
