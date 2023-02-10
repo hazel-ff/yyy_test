@@ -6,6 +6,7 @@ import allure
 from single.s_task.query import shouji_query_get, shouji_query_post
 
 @allure.feature("测试")
+@allure.title("访问用户信息")
 def test_shouji_query_get():
     param = {
         "shouji":"18751887516",
