@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-I2004M0J",
+    "children" : [ {
+      "name" : "4888-MainThread",
+      "children" : [ {
+        "name" : "访问用户信息",
+        "uid" : "80e37b3f18a74300",
+        "parentUid" : "b440728da1b8a6b69b8b336bc5b6deb7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1676167155398,
+          "stop" : 1676167155523,
+          "duration" : 125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_shouji_query_post",
+        "uid" : "9462081ae037bb29",
+        "parentUid" : "b440728da1b8a6b69b8b336bc5b6deb7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1676167155523,
+          "stop" : 1676167156304,
+          "duration" : 781
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b440728da1b8a6b69b8b336bc5b6deb7"
+    } ],
+    "uid" : "b7356637b3418e3741823b7062a46486"
+  } ]
+}

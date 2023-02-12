@@ -1,0 +1,39 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "single.s_case",
+    "children" : [ {
+      "name" : "test_http_request",
+      "children" : [ {
+        "name" : "访问用户信息",
+        "uid" : "80e37b3f18a74300",
+        "parentUid" : "ebcf835c06586811d44e8720e1174e68",
+        "status" : "passed",
+        "time" : {
+          "start" : 1676167155398,
+          "stop" : 1676167155523,
+          "duration" : 125
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_shouji_query_post",
+        "uid" : "9462081ae037bb29",
+        "parentUid" : "ebcf835c06586811d44e8720e1174e68",
+        "status" : "passed",
+        "time" : {
+          "start" : 1676167155523,
+          "stop" : 1676167156304,
+          "duration" : 781
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ebcf835c06586811d44e8720e1174e68"
+    } ],
+    "uid" : "0f0677f5709d9637cc3cb75c8a226682"
+  } ]
+}
