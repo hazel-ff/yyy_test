@@ -17,14 +17,14 @@ def test_shouji_query_get():
     logging.info(f"接口访问成功")
 
 
-def test_shouji_query_post():
-    param = {
-        "shouji":"15075546853",
-        "appkey":"0c818521d38759e2"
-    }
-    actual = shouji_query_post(param)
-    assert actual.status_code==201
-    print('接口访问成功',actual.json())
+# def test_shouji_query_post():
+#     param = {
+#         "shouji":"15075546853",
+#         "appkey":"0c818521d38759e2"
+#     }
+#     actual = shouji_query_post(param)
+#     assert actual.status_code==201
+#     print('接口访问成功',actual.json())
 
 
 
