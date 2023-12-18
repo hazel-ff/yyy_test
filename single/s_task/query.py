@@ -7,7 +7,7 @@ server_url = binstd_url
 """
 get请求
 """
-def shouji_query_get(params):
+def cont_query_get(params):
     result = requests.get(
         url = f"{server_url}/shouji/query",
         data=params
