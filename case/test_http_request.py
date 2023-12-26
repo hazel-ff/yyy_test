@@ -1,5 +1,5 @@
 # 时间：2022/10/15 10:22
-
+import allure
 import pytest
 
 from log.logger import logger
@@ -19,6 +19,7 @@ log = logger()
 #     assert actual.status_code==200
 #     logging.info(f"接口访问成功")
 
+@allure.title("手机号查询")
 @pytest.mark.parametrize('param', get_yaml("testdata.yml",'test_data'), indirect=False,
                          ids=['手机号1','手机号2','手机号3'])
 def test_query_shouji(param):
