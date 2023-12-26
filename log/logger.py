@@ -1,6 +1,7 @@
 # 时间：2023/12/18 10:24
 import logging
 import os.path
+import time
 
 
 class logger():
@@ -26,24 +27,24 @@ class logger():
         # 设置收集级别
         ch.setLevel('INFO')
         fh.setLevel('INFO')
+
         # 日志收集器与输出渠道对接
         logger.addHandler(ch)
         logger.addHandler(fh)
         if level=='INFO':
-            print(f"执行info日志")
             logger.info(msg)
         elif level=='WARNING':
-            print(f"执行warning日志")
             logger.warning(msg)
         elif level=='ERROR':
-            print(f"执行error")
             logger.error(msg)
         else:
             logger.critical(msg)
 
         # 每次收集日志后移除日志收集器
-        logger.removeFilter(ch)
-        logger.removeFilter(fh)
+        logger.removeHandler(ch)
+        logger.removeHandler(fh)
+        # logger.removeFilter(ch)
+        # logger.removeFilter(fh)
         ch.close()
         fh.close()
 
@@ -55,4 +56,11 @@ class logger():
 
     def error(self,msg):
         self.logger('ERROR',msg)
+
+if __name__ == '__main__':
+    log = logger()
+    # log.info(111)
+    # time.sleep(2)
+    log.info(222)
+
 
