@@ -2,4 +2,4 @@
 import pytest
 
 if __name__ == '__main__':
-    pytest.main(['-s','-v','single','-q','--alluredir','allure_report'])
+    pytest.main(['-s','-v','case','-q','--alluredir','allure_report'])
