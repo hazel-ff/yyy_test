@@ -30,7 +30,7 @@ pytest.mark = [
 @allure.title("号码校验")
 @pytest.mark.parametrize('param', get_yaml("testdata.yml",'test_data'), indirect=False,
                          ids=['号码1','号码2','号码3'])
-def test_query_shouji(param):
+def test_query_number(param):
     # log.info(f"{param}")
     actual = cont_query_get(param)
     assert actual['status'] == '101'
