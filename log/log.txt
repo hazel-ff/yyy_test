@@ -200,3 +200,83 @@
 2023-12-27 09:16:17,313-INFO-logger.py-root:接口调用成功，但参数有误：APPKEY为空
 2023-12-27 09:16:17,571-INFO-logger.py-root:请求接口返回{'status': '101', 'msg': 'APPKEY为空', 'result': ''}
 2023-12-27 09:16:17,571-INFO-logger.py-root:接口调用成功，但参数有误：APPKEY为空
+2023-12-27 09:22:45,863-INFO-logger.py-root:yaml文件内容为：{'test_data': [{'shouji': '13722532893', 'appkey': '0c818521d38759e1'}, {'shouji': '15075546853', 'appkey': '0c818521d38759e2'}, {'shouji': '18751887516', 'appkey': '0c818521d38759e4'}], 'query_data': [{'shouji': '18751887516', 'appkey': '0c818521d38759e3'}]}
+2023-12-27 09:22:45,864-INFO-logger.py-root:测试数据为：[{'shouji': '13722532893', 'appkey': '0c818521d38759e1'}, {'shouji': '15075546853', 'appkey': '0c818521d38759e2'}, {'shouji': '18751887516', 'appkey': '0c818521d38759e4'}]
+2023-12-27 09:22:46,178-INFO-logger.py-root:请求接口返回{'status': '101', 'msg': 'APPKEY为空', 'result': ''}
+2023-12-27 09:22:46,179-INFO-logger.py-root:接口调用成功，但参数有误：APPKEY为空
+2023-12-27 09:22:46,376-INFO-logger.py-root:请求接口返回{'status': '101', 'msg': 'APPKEY为空', 'result': ''}
+2023-12-27 09:22:46,376-INFO-logger.py-root:接口调用成功，但参数有误：APPKEY为空
+2023-12-27 09:22:46,741-INFO-logger.py-root:请求接口返回{'status': '101', 'msg': 'APPKEY为空', 'result': ''}
+2023-12-27 09:22:46,743-INFO-logger.py-root:接口调用成功，但参数有误：APPKEY为空
+2023-12-27 10:02:08,547-INFO-logger.py-root:yaml文件内容为：{'test_data': [{'shouji': '13722532893', 'appkey': '0c818521d38759e1'}, {'shouji': '15075546853', 'appkey': '0c818521d38759e2'}, {'shouji': '18751887516', 'appkey': '0c818521d38759e4'}], 'query_data': [{'shouji': '18751887516', 'appkey': '0c818521d38759e3'}]}
+2023-12-27 10:02:08,547-INFO-logger.py-root:测试数据为：[{'shouji': '13722532893', 'appkey': '0c818521d38759e1'}, {'shouji': '15075546853', 'appkey': '0c818521d38759e2'}, {'shouji': '18751887516', 'appkey': '0c818521d38759e4'}]
+2023-12-27 10:02:08,828-INFO-logger.py-root:请求接口返回{'status': '101', 'msg': 'APPKEY为空', 'result': ''}
+2023-12-27 10:02:08,829-INFO-logger.py-root:接口调用成功，但参数有误：APPKEY为空
+2023-12-27 10:02:09,072-INFO-logger.py-root:请求接口返回{'status': '101', 'msg': 'APPKEY为空', 'result': ''}
+2023-12-27 10:02:09,073-INFO-logger.py-root:接口调用成功，但参数有误：APPKEY为空
+2023-12-27 10:02:09,336-INFO-logger.py-root:请求接口返回{'status': '101', 'msg': 'APPKEY为空', 'result': ''}
+2023-12-27 10:02:09,337-INFO-logger.py-root:接口调用成功，但参数有误：APPKEY为空
+2023-12-27 10:24:16,967-INFO-logger.py-root:yaml文件内容为：{'test_data': [{'shouji': '13722532893', 'appkey': '0c818521d38759e1'}, {'shouji': '15075546853', 'appkey': '0c818521d38759e2'}, {'shouji': '18751887516', 'appkey': '0c818521d38759e4'}], 'query_data': [{'shouji': '18751887516', 'appkey': '0c818521d38759e3'}]}
+2023-12-27 10:24:16,968-INFO-logger.py-root:测试数据为：[{'shouji': '13722532893', 'appkey': '0c818521d38759e1'}, {'shouji': '15075546853', 'appkey': '0c818521d38759e2'}, {'shouji': '18751887516', 'appkey': '0c818521d38759e4'}]
+2023-12-27 10:24:17,225-INFO-logger.py-root:请求接口返回{'status': '101', 'msg': 'APPKEY为空', 'result': ''}
+2023-12-27 10:24:17,227-INFO-logger.py-root:接口调用成功，但参数有误：APPKEY为空
+2023-12-27 10:24:17,448-INFO-logger.py-root:请求接口返回{'status': '101', 'msg': 'APPKEY为空', 'result': ''}
+2023-12-27 10:24:17,450-INFO-logger.py-root:接口调用成功，但参数有误：APPKEY为空
+2023-12-27 10:24:17,698-INFO-logger.py-root:请求接口返回{'status': '101', 'msg': 'APPKEY为空', 'result': ''}
+2023-12-27 10:24:17,698-INFO-logger.py-root:接口调用成功，但参数有误：APPKEY为空
+2023-12-27 10:30:18,085-INFO-logger.py-root:yaml文件内容为：{'test_data': [{'shouji': '13722532893', 'appkey': '0c818521d38759e1'}, {'shouji': '15075546853', 'appkey': '0c818521d38759e2'}, {'shouji': '18751887516', 'appkey': '0c818521d38759e4'}], 'query_data': [{'shouji': '18751887516', 'appkey': '0c818521d38759e3'}]}
+2023-12-27 10:30:18,086-INFO-logger.py-root:测试数据为：[{'shouji': '13722532893', 'appkey': '0c818521d38759e1'}, {'shouji': '15075546853', 'appkey': '0c818521d38759e2'}, {'shouji': '18751887516', 'appkey': '0c818521d38759e4'}]
+2023-12-27 10:30:18,299-INFO-logger.py-root:请求接口返回{'status': '101', 'msg': 'APPKEY为空', 'result': ''}
+2023-12-27 10:30:18,300-INFO-logger.py-root:接口调用成功，但参数有误：APPKEY为空
+2023-12-27 10:30:18,501-INFO-logger.py-root:请求接口返回{'status': '101', 'msg': 'APPKEY为空', 'result': ''}
+2023-12-27 10:30:18,501-INFO-logger.py-root:接口调用成功，但参数有误：APPKEY为空
+2023-12-27 10:30:18,741-INFO-logger.py-root:请求接口返回{'status': '101', 'msg': 'APPKEY为空', 'result': ''}
+2023-12-27 10:30:18,742-INFO-logger.py-root:接口调用成功，但参数有误：APPKEY为空
+2023-12-27 10:55:28,734-INFO-logger.py-root:yaml文件内容为：{'test_data': [{'shouji': '13722532893', 'appkey': '0c818521d38759e1'}, {'shouji': '15075546853', 'appkey': '0c818521d38759e2'}, {'shouji': '18751887516', 'appkey': '0c818521d38759e4'}], 'query_data': [{'shouji': '18751887516', 'appkey': '0c818521d38759e3'}]}
+2023-12-27 10:55:28,735-INFO-logger.py-root:测试数据为：[{'shouji': '13722532893', 'appkey': '0c818521d38759e1'}, {'shouji': '15075546853', 'appkey': '0c818521d38759e2'}, {'shouji': '18751887516', 'appkey': '0c818521d38759e4'}]
+2023-12-27 10:55:28,978-INFO-logger.py-root:请求接口返回{'status': '101', 'msg': 'APPKEY为空', 'result': ''}
+2023-12-27 10:55:28,980-INFO-logger.py-root:接口调用成功，但参数有误：APPKEY为空
+2023-12-27 10:55:29,187-INFO-logger.py-root:请求接口返回{'status': '101', 'msg': 'APPKEY为空', 'result': ''}
+2023-12-27 10:55:29,188-INFO-logger.py-root:接口调用成功，但参数有误：APPKEY为空
+2023-12-27 10:55:29,473-INFO-logger.py-root:请求接口返回{'status': '101', 'msg': 'APPKEY为空', 'result': ''}
+2023-12-27 10:55:29,474-INFO-logger.py-root:接口调用成功，但参数有误：APPKEY为空
+2023-12-27 11:24:30,932-INFO-logger.py-root:yaml文件内容为：{'test_data': [{'shouji': '13722532893', 'appkey': '0c818521d38759e1'}, {'shouji': '15075546853', 'appkey': '0c818521d38759e2'}, {'shouji': '18751887516', 'appkey': '0c818521d38759e4'}], 'query_data': [{'shouji': '18751887516', 'appkey': '0c818521d38759e3'}]}
+2023-12-27 11:24:30,933-INFO-logger.py-root:测试数据为：[{'shouji': '13722532893', 'appkey': '0c818521d38759e1'}, {'shouji': '15075546853', 'appkey': '0c818521d38759e2'}, {'shouji': '18751887516', 'appkey': '0c818521d38759e4'}]
+2023-12-27 11:24:31,209-INFO-logger.py-root:请求接口返回{'status': '101', 'msg': 'APPKEY为空', 'result': ''}
+2023-12-27 11:24:31,210-INFO-logger.py-root:接口调用成功，但参数有误：APPKEY为空
+2023-12-27 11:24:31,530-INFO-logger.py-root:请求接口返回{'status': '101', 'msg': 'APPKEY为空', 'result': ''}
+2023-12-27 11:24:31,530-INFO-logger.py-root:接口调用成功，但参数有误：APPKEY为空
+2023-12-27 11:24:31,773-INFO-logger.py-root:请求接口返回{'status': '101', 'msg': 'APPKEY为空', 'result': ''}
+2023-12-27 11:24:31,777-INFO-logger.py-root:接口调用成功，但参数有误：APPKEY为空
+2023-12-27 11:42:08,091-INFO-logger.py-root:yaml文件内容为：{'test_data': [{'shouji': '13722532893', 'appkey': '0c818521d38759e1'}, {'shouji': '15075546853', 'appkey': '0c818521d38759e2'}, {'shouji': '18751887516', 'appkey': '0c818521d38759e4'}], 'query_data': [{'shouji': '18751887516', 'appkey': '0c818521d38759e3'}]}
+2023-12-27 11:42:08,092-INFO-logger.py-root:测试数据为：[{'shouji': '13722532893', 'appkey': '0c818521d38759e1'}, {'shouji': '15075546853', 'appkey': '0c818521d38759e2'}, {'shouji': '18751887516', 'appkey': '0c818521d38759e4'}]
+2023-12-27 11:42:08,369-INFO-logger.py-root:请求接口返回{'status': '101', 'msg': 'APPKEY为空', 'result': ''}
+2023-12-27 11:42:08,369-INFO-logger.py-root:接口调用成功，但参数有误：APPKEY为空
+2023-12-27 11:42:08,569-INFO-logger.py-root:请求接口返回{'status': '101', 'msg': 'APPKEY为空', 'result': ''}
+2023-12-27 11:42:08,576-INFO-logger.py-root:接口调用成功，但参数有误：APPKEY为空
+2023-12-27 11:42:08,791-INFO-logger.py-root:请求接口返回{'status': '101', 'msg': 'APPKEY为空', 'result': ''}
+2023-12-27 11:42:08,792-INFO-logger.py-root:接口调用成功，但参数有误：APPKEY为空
+2023-12-27 11:47:15,534-INFO-logger.py-root:yaml文件内容为：{'test_data': [{'shouji': '13722532893', 'appkey': '0c818521d38759e1'}, {'shouji': '15075546853', 'appkey': '0c818521d38759e2'}, {'shouji': '18751887516', 'appkey': '0c818521d38759e4'}], 'query_data': [{'shouji': '18751887516', 'appkey': '0c818521d38759e3'}]}
+2023-12-27 11:47:15,535-INFO-logger.py-root:测试数据为：[{'shouji': '13722532893', 'appkey': '0c818521d38759e1'}, {'shouji': '15075546853', 'appkey': '0c818521d38759e2'}, {'shouji': '18751887516', 'appkey': '0c818521d38759e4'}]
+2023-12-27 11:47:15,844-INFO-logger.py-root:请求接口返回{'status': '101', 'msg': 'APPKEY为空', 'result': ''}
+2023-12-27 11:47:15,845-INFO-logger.py-root:接口调用成功，但参数有误：APPKEY为空
+2023-12-27 11:47:16,108-INFO-logger.py-root:请求接口返回{'status': '101', 'msg': 'APPKEY为空', 'result': ''}
+2023-12-27 11:47:16,112-INFO-logger.py-root:接口调用成功，但参数有误：APPKEY为空
+2023-12-27 11:47:16,405-INFO-logger.py-root:请求接口返回{'status': '101', 'msg': 'APPKEY为空', 'result': ''}
+2023-12-27 11:47:16,405-INFO-logger.py-root:接口调用成功，但参数有误：APPKEY为空
+2023-12-27 14:23:32,134-INFO-logger.py-root:yaml文件内容为：{'test_data': [{'shouji': '13722532893', 'appkey': '0c818521d38759e1'}, {'shouji': '15075546853', 'appkey': '0c818521d38759e2'}, {'shouji': '18751887516', 'appkey': '0c818521d38759e4'}], 'query_data': [{'shouji': '18751887516', 'appkey': '0c818521d38759e3'}]}
+2023-12-27 14:23:32,135-INFO-logger.py-root:测试数据为：[{'shouji': '13722532893', 'appkey': '0c818521d38759e1'}, {'shouji': '15075546853', 'appkey': '0c818521d38759e2'}, {'shouji': '18751887516', 'appkey': '0c818521d38759e4'}]
+2023-12-27 14:23:32,563-INFO-logger.py-root:请求接口返回{'status': '101', 'msg': 'APPKEY为空', 'result': ''}
+2023-12-27 14:23:32,563-INFO-logger.py-root:接口调用成功，但参数有误：APPKEY为空
+2023-12-27 14:23:32,758-INFO-logger.py-root:请求接口返回{'status': '101', 'msg': 'APPKEY为空', 'result': ''}
+2023-12-27 14:23:32,762-INFO-logger.py-root:接口调用成功，但参数有误：APPKEY为空
+2023-12-27 14:23:32,976-INFO-logger.py-root:请求接口返回{'status': '101', 'msg': 'APPKEY为空', 'result': ''}
+2023-12-27 14:23:32,978-INFO-logger.py-root:接口调用成功，但参数有误：APPKEY为空
+2023-12-27 14:37:47,447-INFO-logger.py-root:yaml文件内容为：{'test_data': [{'shouji': '13722532893', 'appkey': '0c818521d38759e1'}, {'shouji': '15075546853', 'appkey': '0c818521d38759e2'}, {'shouji': '18751887516', 'appkey': '0c818521d38759e4'}], 'query_data': [{'shouji': '18751887516', 'appkey': '0c818521d38759e3'}]}
+2023-12-27 14:37:47,449-INFO-logger.py-root:测试数据为：[{'shouji': '13722532893', 'appkey': '0c818521d38759e1'}, {'shouji': '15075546853', 'appkey': '0c818521d38759e2'}, {'shouji': '18751887516', 'appkey': '0c818521d38759e4'}]
+2023-12-27 14:37:47,874-INFO-logger.py-root:请求接口返回{'status': '101', 'msg': 'APPKEY为空', 'result': ''}
+2023-12-27 14:37:47,875-INFO-logger.py-root:接口调用成功，但参数有误：APPKEY为空
+2023-12-27 14:37:48,197-INFO-logger.py-root:请求接口返回{'status': '101', 'msg': 'APPKEY为空', 'result': ''}
+2023-12-27 14:37:48,198-INFO-logger.py-root:接口调用成功，但参数有误：APPKEY为空
+2023-12-27 14:37:48,476-INFO-logger.py-root:请求接口返回{'status': '101', 'msg': 'APPKEY为空', 'result': ''}
+2023-12-27 14:37:48,477-INFO-logger.py-root:接口调用成功，但参数有误：APPKEY为空

@@ -19,6 +19,7 @@ log = logger()
 #     assert actual.status_code==200
 #     logging.info(f"接口访问成功")
 
+@allure.suite("查询接口")
 @allure.title("手机号查询")
 @pytest.mark.parametrize('param', get_yaml("testdata.yml",'test_data'), indirect=False,
                          ids=['手机号1','手机号2','手机号3'])
