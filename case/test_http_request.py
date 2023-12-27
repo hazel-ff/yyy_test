@@ -8,17 +8,10 @@ from task.query import cont_query_get
 
 
 log = logger()
-# @allure.feature("测试")
-# @allure.title("访问用户信息")
-# def test_shouji_query_get():
-#     param = {
-#         "shouji":"18751887516",
-#         "appkey":"0c818521d38759e1"
-#     }
-#     actual = cont_query_get(param)
-#     assert actual.status_code==200
-#     logging.info(f"接口访问成功")
 
+pytest.mark = [
+    'test'
+]
 @allure.suite("查询接口")
 @allure.title("手机号查询")
 @pytest.mark.parametrize('param', get_yaml("testdata.yml",'test_data'), indirect=False,
@@ -29,6 +22,19 @@ def test_query_shouji(param):
     assert actual['status'] == '101'
     log.info(f"接口调用成功，但参数有误：APPKEY为空")
 
+
+pytest.mark = [
+    'allureproject'
+]
+@allure.suite("校验接口")
+@allure.title("号码校验")
+@pytest.mark.parametrize('param', get_yaml("testdata.yml",'test_data'), indirect=False,
+                         ids=['号码1','号码2','号码3'])
+def test_query_shouji(param):
+    # log.info(f"{param}")
+    actual = cont_query_get(param)
+    assert actual['status'] == '101'
+    log.info(f"接口调用成功，但参数有误：APPKEY为空")
 
 
 

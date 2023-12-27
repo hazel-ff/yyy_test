@@ -1,2 +1,0 @@
-INFO     root:logger.py:35 请求接口返回{'status': '101', 'msg': 'APPKEY为空', 'result': ''}
-INFO     root:logger.py:35 接口调用成功，但参数有误：APPKEY为空
