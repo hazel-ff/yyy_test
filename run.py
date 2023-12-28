@@ -9,4 +9,4 @@ import pytest
 """
 if __name__ == '__main__':
     # pytest.main(['-s','-v','case','-q','--alluredir','allure_report'])
-    pytest.main(['-s', '-v', './case'])
+    pytest.main(['-s', '-v', '-m allureproject','./case'])

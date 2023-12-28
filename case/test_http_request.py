@@ -9,9 +9,7 @@ from task.query import cont_query_get
 
 log = logger()
 
-pytest.mark = [
-    'test'
-]
+@pytest.mark.test
 @allure.suite("查询接口")
 @allure.title("手机号查询")
 @pytest.mark.parametrize('param', get_yaml("testdata.yml",'test_data'), indirect=False,
@@ -23,9 +21,7 @@ def test_query_shouji(param):
     log.info(f"接口调用成功，但参数有误：APPKEY为空")
 
 
-pytest.mark = [
-    'allureproject'
-]
+@pytest.mark.allureproject
 @allure.suite("校验接口")
 @allure.title("号码校验")
 @pytest.mark.parametrize('param', get_yaml("testdata.yml",'test_data'), indirect=False,
